@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: "Urbanist-Medium";
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@font-face {
+    font-family: ;
+    src: url(../Fonts/Urbanist-Medium.ttf);
+    font-family: "Urbanist-Medium";
+}
+
+@font-face {
+    font-family: ;
+    src: url(../Fonts/Urbanist-Bold.ttf);
+    font-family: "Urbanist-Bold";
+}
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.py-80px {
+    padding: 80px 0px;
+}
+
+.NavBase {
+    background-color: #1A3129;
+}
+
+.Logo img {
+    width: 100%;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 700px;
+    padding: 30px 0px;
+}
+
+.NavText {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.NavText a {
+    color: white;
+}
+
+.BannerBase {
+    background-color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "Urbanist-Bold";
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.BannerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 100px;
+}
+
+.BannerText {
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.MaleText {
+    background-color: #F6FBE9;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;  
+    width: 1200px;
+}
+
+.Slider {
+    width: 140%;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+
+.Month {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    border: 1px solid #DCF1A7;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.YeBut {
+    padding: 10px;
+    background-color: #234338;
+    border: 1px solid #234338;
+    color: white;
+    border-radius: 10px;
+}
+
+.TextButtons {
+    font-size: 10px;
+}
+
+.Cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card {
+    border-radius: 20px;
+    border: 1px solid #DCF1A7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    align-items: flex-start;
+    height: 100%;
+    gap: 20px;
+    padding: 30px;
+}
+
+.CrdBtn {
+    padding: 10px;
+    background-color: #DCF1A7;
+    border: 1px solid #DCF1A7;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
